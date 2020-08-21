@@ -20,7 +20,7 @@ public class Example : MonoBehaviour
 {
     private void Awake()
     {
-        var obj = new TestDisposable();
+        TestDisposable obj = null;
 
         obj.DisposeIfNotNull();
 
